@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 5rem;
+	color: #ffffff;
+}
+
+.container {
+	padding: 0;
+	background: #000000;
+	overflow: hidden;
+}
+
+#Gigante {
+	opacity: 0;
+	height: 100vh;
+	width: 100%;
+	transition: opacity ease-in 5s;
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: opacity ease-in 1s;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.my-button {
+	margin: 0rem 5rem;
+	cursor: pointer;
+	color: #0000ff;
+	font-size: 4rem;
+	font-weight: 500;
+	padding: 2rem;
+	border: 0.3rem solid #0000ff;
+	border-radius: 1rem;
+	text-transform: uppercase;
+}
+
+.my-button:active {
+	color: #ffffff;
+	border: 0.3rem solid #ffffff;
+	background-color: #90e0ef;
+}
